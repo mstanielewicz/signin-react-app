@@ -17,7 +17,7 @@ export const App = () => {
       <AppWrapper>
         <NotificationProvider>
           <UserProvider>
-            <Router>
+            <Router basename="/signin-react-app">
               <Header />
               <Notifications />
               <Route exact path="/" component={Home} />

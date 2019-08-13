@@ -2,9 +2,11 @@
   "name": "signin-react-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://mstanielewicz.github.io/signin-react-app/",
   "dependencies": {
     "@testing-library/react": "^9.1.1",
     "formik": "^2.0.1-rc.12",
+    "gh-pages": "^2.1.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.0.1",
@@ -18,7 +20,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

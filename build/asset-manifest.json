@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/static/js/main.748d09d7.chunk.js",
-    "main.js.map": "/static/js/main.748d09d7.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.13185403.js",
-    "runtime~main.js.map": "/static/js/runtime~main.13185403.js.map",
-    "static/js/2.f7676b5f.chunk.js": "/static/js/2.f7676b5f.chunk.js",
-    "static/js/2.f7676b5f.chunk.js.map": "/static/js/2.f7676b5f.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.15065b53325ea60df99aa1fe3b0f7e17.js": "/precache-manifest.15065b53325ea60df99aa1fe3b0f7e17.js",
-    "service-worker.js": "/service-worker.js"
+    "main.js": "/signin-react-app/static/js/main.748d09d7.chunk.js",
+    "main.js.map": "/signin-react-app/static/js/main.748d09d7.chunk.js.map",
+    "runtime~main.js": "/signin-react-app/static/js/runtime~main.a4e38896.js",
+    "runtime~main.js.map": "/signin-react-app/static/js/runtime~main.a4e38896.js.map",
+    "static/js/2.45ecdda2.chunk.js": "/signin-react-app/static/js/2.45ecdda2.chunk.js",
+    "static/js/2.45ecdda2.chunk.js.map": "/signin-react-app/static/js/2.45ecdda2.chunk.js.map",
+    "index.html": "/signin-react-app/index.html",
+    "precache-manifest.4eba5dcc28febdf01cd2394483107175.js": "/signin-react-app/precache-manifest.4eba5dcc28febdf01cd2394483107175.js",
+    "service-worker.js": "/signin-react-app/service-worker.js"
   }
 }
