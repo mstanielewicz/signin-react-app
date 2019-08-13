@@ -13,7 +13,7 @@ export const NotificationProvider = ({ children }) => {
 
   const showNotification = notification => {
     setState(previous => [...previous, notification]);
-    setTimeout(() => closeNotification(notification.id), 5000);
+    setTimeout(() => closeNotification(notification.id), 3000);
   };
 
   const closeNotification = id =>

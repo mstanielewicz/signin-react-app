@@ -2,14 +2,16 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { UserContext } from "../context/UserContext";
 
+import styled from "styled-components";
+
 export const Header = () => {
   const { signout, user, isAuthenticated } = React.useContext(UserContext);
 
   return (
-    <header>
+    <HeaderWrapper>
       <span>{isAuthenticated ? `Hello ${user.name}!` : "Please signin"}</span>
       {isAuthenticated ? <SignoutButton signout={signout} /> : <SigninButton />}
-    </header>
+    </HeaderWrapper>
   );
 };
 
@@ -19,6 +21,21 @@ const SignoutButton = ({ signout }) => (
 
 const SigninButton = () => (
   <Link to="/signin">
-    <button>{"Signin"}</button>;
+    <button>{"Signin"}</button>
   </Link>
 );
+
+const HeaderWrapper = styled.header`
+  height: 3rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 1rem 0;
+  border-bottom: 2px #000083 solid;
+  color: #000083;
+
+  span {
+    font-size: 2rem;
+  }
+`;
