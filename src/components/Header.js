@@ -27,13 +27,12 @@ const SigninButton = () => (
 
 const HeaderWrapper = styled.header`
   height: 3rem;
-  margin-bottom: 1rem;
+  margin: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   padding: 1rem 0;
   border-bottom: 2px #000083 solid;
-  color: #000083;
 
   span {
     font-size: 2rem;

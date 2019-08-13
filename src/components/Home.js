@@ -22,7 +22,6 @@ const HomeWrapper = styled.div`
   justify-content: center;
   align-items: center;
   height: 10rem;
-  color: #000083;
   padding: 4rem;
 
   h1 {

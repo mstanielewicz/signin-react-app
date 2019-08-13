@@ -98,10 +98,15 @@ const FormWrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 3rem;
-  padding: 3rem;
+  margin: 1rem;
+  padding: 1rem;
   border: 2px #000083 solid;
   border-radius: 1rem;
+
+  @media screen and (min-width: 900px) {
+    margin: 3rem;
+    padding: 3rem;
+  }
 
   & > * {
     margin-bottom: 1rem;

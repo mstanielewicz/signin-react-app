@@ -37,16 +37,18 @@ const GlobalStyles = createGlobalStyle`
     background-color: #e9edf6;
     font-family: sans-serif;
     font-size: 10px;
-    color: rgba(10, 16, 25, 0.9);    
-  }
+    color: #000083;
 
-  button {
-    cursor: pointer;
-    text-decoration: none;
-    height: 2.5rem;
-    padding: 0 2rem;
-    font-size: 1.5rem;
-    background-color: white;
+    button {
+      cursor: pointer;
+      text-decoration: none;
+      height: 2.5rem;
+      padding: 0 2rem;
+      font-size: 1.5rem;
+      background: white;
+      border: 2px #000083 solid;
+      
+    }
   }
 `;
 
