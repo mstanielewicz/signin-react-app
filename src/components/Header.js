@@ -35,6 +35,6 @@ const HeaderWrapper = styled.header`
   border-bottom: 2px #000083 solid;
 
   span {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 `;

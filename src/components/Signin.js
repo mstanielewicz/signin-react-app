@@ -123,7 +123,7 @@ const InputWrapper = styled.div`
 
   span {
     margin-top: 5px;
-    font-size: 1rem;
+    font-size: 0.6rem;
     color: red;
   }
 
@@ -134,5 +134,11 @@ const InputWrapper = styled.div`
     border-bottom: 2px ${props => (props.error ? "red" : "#000083")} solid;
     background-color: #e9edf6;
     font-size: 1.5rem;
+  }
+
+  @media screen and (min-width: 900px) {
+    span {
+      font-size: 1rem;
+    }
   }
 `;

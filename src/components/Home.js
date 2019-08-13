@@ -21,7 +21,6 @@ const HomeWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 10rem;
   padding: 4rem;
 
   h1 {
