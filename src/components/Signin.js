@@ -54,12 +54,19 @@ const SigninForm = ({ loading }) => {
     <FormWrapper>
       <InputWrapper error={errors.email && touched.email}>
         <label htmlFor="email">Email</label>
-        <Field name="email" disabled={loading} />
-        {errors.email && touched.email ? <span>{errors.email}</span> : null}
+        <Field name="email" id="email" disabled={loading} />
+        {errors.email && touched.email ? (
+          <span className="">{errors.email}</span>
+        ) : null}
       </InputWrapper>
       <InputWrapper error={errors.password && touched.password}>
         <label htmlFor="password">Password</label>
-        <Field name="password" type="password" disabled={loading} />
+        <Field
+          name="password"
+          id="password"
+          type="password"
+          disabled={loading}
+        />
         {errors.password && touched.password ? (
           <span>{errors.password}</span>
         ) : null}

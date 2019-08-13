@@ -13,7 +13,11 @@ export const Notifications = () => {
   return (
     <NotificationsWrapper>
       {state.map(notification => (
-        <NotificationWrapper key={notification.id} status={notification.status}>
+        <NotificationWrapper
+          key={notification.id}
+          status={notification.status}
+          className="notification"
+        >
           {notification.message}
         </NotificationWrapper>
       ))}
