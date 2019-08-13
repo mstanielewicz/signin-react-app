@@ -80,5 +80,8 @@ const validationSchema = Yup.object().shape({
       /^[a-zA-Z0-9]+$/,
       "Password can only contain Latin letters and numbers!"
     )
-  // conajmniej jedna litera mała, jedna dua, jedna liczba
+    .matches(
+      /(?=.*?[0-9])(?=.*?[A-Z])(?=.*[a-z])/,
+      "Password has to contain one uppercase, one lowercase and one digit!"
+    )
 });

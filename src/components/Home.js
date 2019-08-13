@@ -8,7 +8,7 @@ export const Home = () => {
     <div>
       <h1>
         {isAuthenticated
-          ? "Now you can use the app!"
+          ? `Now you can use the app ${user.name}!`
           : "In order to use the app, you have to signin!"}
       </h1>
     </div>
