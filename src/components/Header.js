@@ -9,19 +9,19 @@ export const Header = () => {
 
   return (
     <HeaderWrapper>
-      <span>{isAuthenticated ? `Hello ${user.name}!` : "Please signin"}</span>
+      <span>{isAuthenticated ? `Hello ${user.name}!` : "Please sign-in"}</span>
       {isAuthenticated ? <SignoutButton signout={signout} /> : <SigninButton />}
     </HeaderWrapper>
   );
 };
 
 const SignoutButton = ({ signout }) => (
-  <button onClick={signout}>{"Signout"}</button>
+  <button onClick={signout}>{"Sign-out"}</button>
 );
 
 const SigninButton = () => (
   <Link to="/signin">
-    <button>{"Signin"}</button>
+    <button>{"Sign-in"}</button>
   </Link>
 );
 
